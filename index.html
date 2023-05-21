@@ -1,0 +1,81 @@
+<!DOCTYPE>
+
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <title>CatsAndDogsBio</title>
+
+    </head>
+
+    <body>
+
+        <main>
+
+            <h1>Cats and Dogs Biography</h1>
+
+            <section>
+                <strong>Welcome to the <em>Cats And Dogs Biography</em> website.</strong>
+
+                <p>This page is created for all those curious animal
+                    lovers who'd love to learn the differences between <strong>cats</strong>
+                    and <strong>dogs</strong>. If you are also a person who wants to decide whether it
+                    is better to own a cat or dog, you are still in the right place.
+                </p>
+            
+            </section>
+
+            <section>    
+
+                <h3>Select which animal you want to learn about by selecting 
+                    an image of your choice.
+                </h3>
+                
+                
+                <figure>
+                    <a href="./Pages/cats.html"><img src="./Pictures/cat1.jpeg" alt="image of a cat standing"></a>
+                    <figcaption><strong>A Cat </strong></figcaption>
+                </figure>
+                <figure>
+                    <a href="./Pages/dogs.html"><img src="./Pictures/dog1.jpeg" alt="image of a dog standing in a field of flowers"></a>
+                    <figcaption><strong> A Dog </strong></figcaption>
+                </figure>
+                               
+            </section>
+
+            <section>
+                <h2>Activity Form</h2>
+                <fieldset>
+                    <legend>Would you love to own a cat dog?</legend>
+                    <label><input id="yes" type="radio" name="yes-no" value="yes" checked> Yes</label>
+                    <label><input id="no" type="radio" name="yes-no" value="no"> No</label>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Leave us your details if you selected yes above.</legend>
+                    <lable><input type="text" name="fullname" placeholder="John Doe" required> Full Name</lable>
+                    <label><input type="text" name="email" placeholder="johndoe@gmail.com" required> E-mail</label>
+                    
+                    <fieldset id="choose">
+                        <legend>Which pet would you love?</legend>
+                        <label><input id="cat" type="radio" name="cat-dog" value="cat" checked> Cat</label>
+                        <label><input id="dog" type="radio" name="cat-dog" value="dog"> Dog</label>
+                        <label><input id="both" type="radio" name="cat-dog" value="both"> Both</label>
+                    </fieldset>
+                    <button type="submit" for="choose"> Submit</button>
+                </fieldset>
+
+            </section>
+
+
+
+        </main>
+
+        <footer>
+            No CopyRight
+        </footer>
+        
+
+    </body>
+</html>
