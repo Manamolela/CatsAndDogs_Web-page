@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    padding: 30px;
+    background-image: url(./Pictures/pet_back.jpg);
+}
+
+.doc {
+    background-color:rgba(255, 185, 185, 0.842);
+}
+
+h1, h2, h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.welcome, .activity, h1 {
+    text-align: center;
+}
+
+.select, img {
+    display: inline-block;
+}
+
+img {
+    width: 130px;
+    height: 130px;
+}
+
+.pic.cat {
+    text-align: left;
+    width: 75%s;
+}
+
+.pic.dog {
+    text-align: right;
+    width: 25%;
+}
+
+footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.author {
+    margin-top: -10px;
+}
+
+hr {
+    height: 5px;
+    background-color: rgb(173, 94, 94);
+    border-color: rgb(163, 102, 102);
+}

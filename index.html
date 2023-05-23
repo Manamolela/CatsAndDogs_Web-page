@@ -5,17 +5,22 @@
 
         <meta charset="UTF-8">
         <title>CatsAndDogsBio</title>
+        <link rel="stylesheet" href="./style.css">
 
     </head>
 
     <body>
 
-        <main>
+        <div class="doc">
 
-            <h1>Cats and Dogs Biography</h1>
+            <main>
+
+                <h1>Cats and Dogs Biography</h1>
+
+                <hr>
 
             <section>
-                <strong>Welcome to the <em>Cats And Dogs Biography</em> website.</strong>
+                <h2 class="welcome">Welcome to the <em>Cats And Dogs Biography</em> website.</h2>
 
                 <p>This page is created for all those curious animal
                     lovers who'd love to learn the differences between <strong>cats</strong>
@@ -31,22 +36,24 @@
                     an image of your choice.
                 </h3>
                 
-                
-                <figure>
-                    <a href="./Pages/cats.html"><img src="./Pictures/cat1.jpeg" alt="image of a cat standing"></a>
-                    <figcaption><strong>A Cat </strong></figcaption>
-                </figure>
-                <figure>
-                    <a href="./Pages/dogs.html"><img src="./Pictures/dog1.jpeg" alt="image of a dog standing in a field of flowers"></a>
-                    <figcaption><strong> A Dog </strong></figcaption>
-                </figure>
+                <article class="select"> 
+
+                    <figure class="pic cat">
+                        <a href="./Pages/cats.html"><img src="./Pictures/cat1.jpeg" alt="image of a cat standing"></a>
+                        <figcaption><strong>A Cat </strong></figcaption>
+                    </figure><figure class="pic dog">
+                        <a href="./Pages/dogs.html"><img src="./Pictures/dog1.jpeg" alt="image of a dog standing in a field of flowers"></a>
+                        <figcaption><strong> A Dog </strong></figcaption>
+                    </figure>
+
+                </article>
                                
             </section>
 
             <section>
-                <h2>Activity Form</h2>
+                <h2 class="activity">Activity Form</h2>
                 <fieldset>
-                    <legend>Would you love to own a cat dog?</legend>
+                    <legend>Would you love to own a cat or dog?</legend>
                     <label><input id="yes" type="radio" name="yes-no" value="yes" checked> Yes</label>
                     <label><input id="no" type="radio" name="yes-no" value="no"> No</label>
 
@@ -62,21 +69,22 @@
                         <label><input id="cat" type="radio" name="cat-dog" value="cat" checked> Cat</label>
                         <label><input id="dog" type="radio" name="cat-dog" value="dog"> Dog</label>
                         <label><input id="both" type="radio" name="cat-dog" value="both"> Both</label>
+                        </fieldset>
+                        <button type="submit" for="choose"> Submit</button>
                     </fieldset>
-                    <button type="submit" for="choose"> Submit</button>
-                </fieldset>
 
-            </section>
+                </section>
 
+            </main>
 
-
-        </main>
+            <hr class="bottom-line">
 
         <footer>
-            No CopyRight
-            <p>Author: <strong>Manamolela Peete</strong></p>
+            <p>No CopyRight</p>
+            <p class="author">Author: <strong>Manamolela Peete</strong></p>
         </footer>
-        
+
+        </div>
 
     </body>
 </html>
